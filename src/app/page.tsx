@@ -1,5 +1,3 @@
 import { CommuteScreen } from '../components/commute-screen';
-
-export default function Page() {
-  return <CommuteScreen />;
-}
+import { CommuteSettings } from '../components/commute-settings';
+export default function Page() { return <CommuteScreen><CommuteSettings /></CommuteScreen>; }
