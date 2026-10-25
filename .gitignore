@@ -1,0 +1,20 @@
+# Dependencies, generated builds and tool caches.
+node_modules/
+.next/
+dist/
+coverage/
+.pnpm-store/
+*.tsbuildinfo
+next-env.d.ts
+
+# Local credentials; only the empty example belongs in source control.
+.env
+.env.*
+!.env.example
+
+# Local provider links/caches and machine output.
+supabase/.temp/
+supabase/.branches/
+.vercel/
+*.log
+.DS_Store
