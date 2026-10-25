@@ -1,0 +1,14 @@
+# Never upload local secrets, CLI metadata, generated builds or private captures.
+.env*
+!.env.example
+.git/
+.vercel/
+.next/
+node_modules/
+.pnpm-store/
+dist/
+*.tsbuildinfo
+supabase/.temp/
+supabase/.branches/
+docs/
+tests/

@@ -1,0 +1,59 @@
+{
+  "source": "https://rrgtfsfeeds.s3.amazonaws.com/gtfs_bx.zip",
+  "downloadDate": "2026-10-20",
+  "sha256": "9f6091fe3d8e6c66a195edd6d48c4eb8a7fae7e80317e6df2a91f1c9b90def6e",
+  "routeId": "BX28",
+  "directionId": "1",
+  "boardingStopId": "103617",
+  "alightingStopId": "100080",
+  "requiredDestinationId": "MTA_101530",
+  "eligibleTripsChecked": 361,
+  "eligibleTripsMissingDownstreamAlightingStop": 0,
+  "patterns": [
+    {
+      "headsign": "NORWOOD 205 ST STATION via GUNHILL",
+      "destinationId": "MTA_802021",
+      "originId": "MTA_101734",
+      "boardingSequence": 33,
+      "alightingSequence": null,
+      "boardingBeforeAlighting": false,
+      "tripCount": 57
+    },
+    {
+      "headsign": "FORDHAM CENTER 192 ST via GUNHILL",
+      "destinationId": "MTA_101530",
+      "originId": "MTA_101734",
+      "boardingSequence": 33,
+      "alightingSequence": 39,
+      "boardingBeforeAlighting": true,
+      "tripCount": 46
+    },
+    {
+      "headsign": "FORDHAM CENTER 192 ST via GUNHILL",
+      "destinationId": "MTA_101530",
+      "originId": "MTA_101734",
+      "boardingSequence": 27,
+      "alightingSequence": 33,
+      "boardingBeforeAlighting": true,
+      "tripCount": 313
+    },
+    {
+      "headsign": "FORDHAM CENTER 192 ST via GUNHILL",
+      "destinationId": "MTA_101530",
+      "originId": "MTA_902217",
+      "boardingSequence": 18,
+      "alightingSequence": 24,
+      "boardingBeforeAlighting": true,
+      "tripCount": 1
+    },
+    {
+      "headsign": "FORDHAM CENTER 192 ST via GUNHILL",
+      "destinationId": "MTA_101530",
+      "originId": "MTA_104052",
+      "boardingSequence": 8,
+      "alightingSequence": 14,
+      "boardingBeforeAlighting": true,
+      "tripCount": 1
+    }
+  ]
+}

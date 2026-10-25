@@ -1,0 +1,131 @@
+{
+  "source": "Official MTA Bus Time OneBusAway static route discovery",
+  "routeId": "MTA NYCT_BX28",
+  "stops": [
+    {
+      "code": "100080",
+      "direction": "SW",
+      "id": "MTA_100080",
+      "lat": 40.874629,
+      "locationType": 0,
+      "lon": -73.891539,
+      "name": "PAUL AV/BEDFORD PARK BLVD",
+      "routeIds": [
+        "MTA NYCT_BX10",
+        "MTA NYCT_BX22",
+        "MTA NYCT_BX25",
+        "MTA NYCT_BX26",
+        "MTA NYCT_BX28",
+        "MTA NYCT_BX38"
+      ],
+      "wheelchairBoarding": "UNKNOWN"
+    },
+    {
+      "code": "102230",
+      "direction": "NE",
+      "id": "MTA_102230",
+      "lat": 40.873571,
+      "locationType": 0,
+      "lon": -73.87929,
+      "name": "BAINBRIDGE AV/E 204 ST",
+      "routeIds": [
+        "MTA NYCT_BX28",
+        "MTA NYCT_BX34"
+      ],
+      "wheelchairBoarding": "UNKNOWN"
+    },
+    {
+      "code": "102260",
+      "direction": "SW",
+      "id": "MTA_102260",
+      "lat": 40.872951,
+      "locationType": 0,
+      "lon": -73.880635,
+      "name": "BAINBRIDGE AV/EAST MOSHOLU PKWY NORTH",
+      "routeIds": [
+        "MTA NYCT_BX28",
+        "MTA NYCT_BX34",
+        "MTA NYCT_BX38"
+      ],
+      "wheelchairBoarding": "UNKNOWN"
+    },
+    {
+      "code": "103449",
+      "direction": "NE",
+      "id": "MTA_103449",
+      "lat": 40.874638,
+      "locationType": 0,
+      "lon": -73.891419,
+      "name": "PAUL AV/BEDFORD PARK BLVD",
+      "routeIds": [
+        "MTA NYCT_BX10",
+        "MTA NYCT_BX28",
+        "MTA NYCT_BX38"
+      ],
+      "wheelchairBoarding": "UNKNOWN"
+    },
+    {
+      "code": "103617",
+      "direction": "S",
+      "id": "MTA_103617",
+      "lat": 40.875018,
+      "locationType": 0,
+      "lon": -73.879505,
+      "name": "BAINBRIDGE AV/E 206 ST",
+      "routeIds": [
+        "MTA NYCT_BX28",
+        "MTA NYCT_BX34",
+        "MTA NYCT_BX38"
+      ],
+      "wheelchairBoarding": "UNKNOWN"
+    }
+  ],
+  "groups": [
+    {
+      "id": "0",
+      "name": {
+        "name": "CO-OP CITY EARHART LANE via GUNHILL",
+        "names": [
+          "CO-OP CITY EARHART LANE via GUNHILL"
+        ],
+        "type": "destination"
+      },
+      "stops": [
+        {
+          "id": "MTA_103449",
+          "sequence": 8
+        },
+        {
+          "id": "MTA_102230",
+          "sequence": 14
+        }
+      ],
+      "origin": "MTA_103042"
+    },
+    {
+      "id": "1",
+      "name": {
+        "name": "FORDHAM CENTER 192 ST via GUNHILL",
+        "names": [
+          "FORDHAM CENTER 192 ST via GUNHILL"
+        ],
+        "type": "destination"
+      },
+      "stops": [
+        {
+          "id": "MTA_103617",
+          "sequence": 37
+        },
+        {
+          "id": "MTA_102260",
+          "sequence": 38
+        },
+        {
+          "id": "MTA_100080",
+          "sequence": 43
+        }
+      ],
+      "origin": "MTA_101734"
+    }
+  ]
+}

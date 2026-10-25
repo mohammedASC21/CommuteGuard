@@ -1,0 +1,47 @@
+{
+  "Siri": {
+    "ServiceDelivery": {
+      "ResponseTimestamp": "2026-10-20T08:00:05-04:00",
+      "VehicleMonitoringDelivery": [
+        {
+          "ResponseTimestamp": "2026-10-20T08:00:05-04:00",
+          "ValidUntil": "2026-10-20T08:01:05-04:00",
+          "VehicleActivity": [
+            {
+              "RecordedAtTime": "2026-10-20T08:00:00-04:00",
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_BX10",
+                "DirectionRef": "1",
+                "VehicleRef": "MTA NYCT_FIXTURE_VEHICLE",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2026-10-20",
+                  "DatedVehicleJourneyRef": "MTA NYCT_FIXTURE_TRIP"
+                },
+                "VehicleLocation": {
+                  "Latitude": 40.88,
+                  "Longitude": -73.9
+                },
+                "DestinationRef": "MTA_FIXTURE_DESTINATION",
+                "DestinationName": "FICTIONAL DESTINATION",
+                "ProgressRate": "normalProgress",
+                "MonitoredCall": {
+                  "StopPointRef": "MTA_FIXTURE_STOP",
+                  "ExpectedArrivalTime": "2026-10-20T08:05:00-04:00",
+                  "Extensions": {
+                    "Distances": {
+                      "DistanceFromCall": 600,
+                      "StopsFromCall": 2
+                    }
+                  }
+                },
+                "OnwardCalls": {
+                  "OnwardCall": []
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
